@@ -1,0 +1,117 @@
+/* LOGIN */
+
+.ingreso_o_registro {
+    background-color: rgba(58, 137, 255, 0.103);
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    color: rgb(71, 120, 255);
+    cursor: pointer;
+    position: relative;
+    top: 100%;
+    user-select: none;
+}
+
+#login_registro{
+    position: relative;
+    display: flex;
+    top: 5rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+#logo{
+    width: 14rem;
+    margin: 0 auto;
+}
+#login{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#registro{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+#login input, #registro input{
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#login button, #registro button{
+    margin: 10px 0;
+    padding: 10px;
+    /*background-color: #007bff;*/
+    background-color: #1c2f42;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* mensajes de alerta */
+#alertas{
+    display:none;
+    justify-content: center;
+}
+.alerta{
+    position: fixed;
+    top: 50%;
+    border: solid 1px rgb(80, 197, 80);
+    border-left: solid 5px rgb(80, 197, 80);
+    border-radius: 5px;
+    background-color: rgb(191, 255, 191);
+    color: rgb(80, 197, 80);
+    padding: 10px;
+    width: 80%;
+    box-shadow: 3px 5px rgba(0, 50, 0, 0.8);
+    z-index: 5;
+}
+/* Estilos generales */
+body{
+    margin: 0;
+    padding: 3rem 0;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+label{
+    margin: 0;
+    font-size: 0.9em;
+    color: rgba(130,130,130,1);
+}
+p{
+    margin: 10px 0;
+}
+.oculto {
+    display: none;
+}
+.boton {
+    background-color: gray;
+    padding: 2px;
+}
+.icono {
+    width: 50px;
+    position: static;
+}
